@@ -1,0 +1,140 @@
+#imgur{
+ 
+    background-image: url('https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png');
+    height:450px;
+    margin-top:100px;
+    padding: 50px;
+    margin-top: 1px;
+}
+
+ /* navbar start */
+#main-imgur-navbar{
+    display: flex;
+    max-height:90px;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+ 
+    
+  }
+  #imgur-img-1-logo{
+    margin-left:70px;
+    height:50px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #imgur-btn1{
+    background-color:#1bb76e;
+    height:50px;
+    margin-left:3rem;
+    color:white;
+    border:none;
+    padding: 10px;
+    border-radius: 4px;
+    width:7rem;
+    font-size:16px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  .icon-search{
+      color:gray;
+      font-size: 1.6em;
+      background-color:#b6b9c0;
+      padding: 10px;
+      border: none;
+  }
+ 
+  #imgur-input1{
+  width:45rem;
+  height:50px;
+  margin-left:15rem;
+  background-color:#b6b9c0;
+  border: none;
+  }
+  #imgur-input1::placeholder{
+    color: gray;
+    font-size: 1.6em;
+    
+  }
+  .imgur-search{
+    background-color:#b6b9c0;
+    border: none;
+    cursor: pointer;
+    width:5rem;
+    height:50px;
+    width:5rem;
+    height:58px;
+    margin-left: -4px;
+  }
+  #imgur-btn2{
+    background-color: #6432f9;
+    height:50px;
+    margin-left:200px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    border:none;
+    padding: 10px;
+    border-radius: 4px;
+    width:9rem;
+    cursor: pointer;
+  }
+ /* navbar end */
+
+  .imgur-heading-1{
+    color: #aed8ea;
+    text-align: center;
+    margin-top: 120px;
+
+    
+  }
+
+  .imgur-img-1{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% ;
+    margin-top: 35px;
+    padding:20px;
+    gap:10px;
+    height:150px;
+  justify-content: center;
+  
+  }
+  .imgur-img-1-1{
+    background-image: url("https://imgs.search.brave.com/nVvI0ASdMc7VUt8xUTogVMrMNdEWwGN-X9jAedSGmT8/rs:fit:1024:630:1/g:ce/aHR0cDovL2ltZy54/Y2l0ZWZ1bi5uZXQv/dXNlcnMvMjAxNC8w/Ny8zNTg1NTgseGNp/dGVmdW4tYXdlc29t/ZS1ncmFwaGljcy1p/bGx1c3RyYXRvci1h/cnQtMy5qcGc");
+    
+    
+  }
+  .imgur-img-1-2{
+    background-image: url("https://imgs.search.brave.com/59xSLQTLUOtMvTAcEskeGis-GeMl_u5i3doKCXzRB7Q/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/TnM1MlhkMlJfYmZW/dzgxd0l1R2NRSGFF/SyZwaWQ9QXBp");
+  }
+  .imgur-img-1-3{
+  
+   
+    background-image: url("https://imgs.search.brave.com/FE7mYxf7guX_kOdv58I1C5lPBW4ELaLRwZxtz6jLqvA/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5W/M3RFQk85dzZKY0lQ/NkpMSE1CMkFnSGFF/NyZwaWQ9QXBp");
+  }
+  .imgur-img-1-4{
+    background-image: url("https://imgs.search.brave.com/JMwfwyaXtsYsX98lCheg2LQPALidA2HudFN8nfEjoUQ/rs:fit:1200:1200:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsL2QvMC82Lzcw/NDU4NS1mcmVlLWJy/aWdodC1jb2xvcmZ1/bC13YWxscGFwZXIt/MTkyMHgxMjAwLWh0/Yy5qcGc");
+    
+  
+  }
+  .imgur-img-1-5{
+    background-image: url("https://imgs.search.brave.com/nVvI0ASdMc7VUt8xUTogVMrMNdEWwGN-X9jAedSGmT8/rs:fit:1024:630:1/g:ce/aHR0cDovL2ltZy54/Y2l0ZWZ1bi5uZXQv/dXNlcnMvMjAxNC8w/Ny8zNTg1NTgseGNp/dGVmdW4tYXdlc29t/ZS1ncmFwaGljcy1p/bGx1c3RyYXRvci1h/cnQtMy5qcGc"); 
+    
+  }
+  .imgur-img-1-6{
+    background-image: url("https://imgs.search.brave.com/59xSLQTLUOtMvTAcEskeGis-GeMl_u5i3doKCXzRB7Q/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/TnM1MlhkMlJfYmZW/dzgxd0l1R2NRSGFF/SyZwaWQ9QXBp");
+  }
+  .main-img{
+    background-color: #1bb76e;
+    height:auto;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    gap:1%;
+    justify-content: center;
+    padding:4%;
+
+  }
+  .img1321{
+    height: 300px;
+    border-radius: 10px;
+  }
